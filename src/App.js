@@ -1,5 +1,6 @@
 import './App.css';
 import AllRoutes from './AllRoutes/AllRoutes';
+import './assets/css/style.scss'
 
 function App() {
   return (

@@ -1,0 +1,55 @@
+
+.gold-price-graph {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.performance {
+    text-align: right;
+}
+
+.performance-value {
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.performance-label {
+    display: block;
+    font-size: 12px;
+    color: gray;
+}
+
+.timeframe-buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.timeframe-buttons button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    background: #f0f0f0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.timeframe-buttons button:hover {
+    background: #e0e0e0;
+}
